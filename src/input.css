@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .primary-btn {
+    @apply bg-[#d8fb78] py-3 px-6 text-[15px] font-semibold rounded-full transition-all duration-300 border border-transparent;
+  }
+  .primary-btn:hover {
+    @apply bg-transparent hover:border-zinc-500 hover:border;
+  }
+}
